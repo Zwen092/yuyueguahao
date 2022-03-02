@@ -1,0 +1,31 @@
+2022-01-29 00:05:32.073 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=8m23s5ms).
+2022-01-29 02:41:31.189 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s867ms).
+2022-01-29 04:41:59.816 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s628ms).
+2022-01-29 05:39:20.738 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=56m50s912ms).
+2022-01-29 07:40:19.462 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s728ms).
+2022-01-29 09:40:48.256 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s794ms).
+2022-01-29 10:38:03.307 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=56m45s39ms).
+2022-01-29 11:02:45.570 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=10m12s131ms).
+2022-01-29 11:09:39.378 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=6m53s812ms).
+2022-01-29 11:16:37.108 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=6m27s723ms).
+2022-01-29 11:24:55.255 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=7m48s138ms).
+2022-01-29 11:27:03.967 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2m8s712ms).
+2022-01-29 11:32:03.876 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=4m29s892ms).
+2022-01-29 11:43:23.493 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=11m19s617ms).
+2022-01-29 13:51:51.619 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h7m58s108ms).
+2022-01-29 14:20:39.093 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=28m17s464ms).
+2022-01-29 16:21:07.600 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s507ms).
+2022-01-29 17:17:05.280 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=55m27s668ms).
+2022-01-29 18:15:00.063 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-29 18:15:00.152 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-29 18:27:33.471 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-29 18:27:33.562 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-29 21:22:30.689 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-29 21:22:30.778 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-29 22:12:58.573 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Retrograde clock change detected (housekeeper delta=28s107ms), soft-evicting connections from pool.
+2022-01-29 22:17:48.341 [http-nio-9998-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NumberFormatException: For input string: "61b2d25e89bde763331b1a6a"]
+2022-01-29 22:20:06.448 [http-nio-9998-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NumberFormatException: For input string: "61b2d25e89bde763331b1a6a"]
+2022-01-29 22:22:22.461 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-29 22:22:22.592 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-29 22:37:56.079 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-29 22:37:56.161 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.

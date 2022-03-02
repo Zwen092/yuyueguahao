@@ -1,0 +1,16 @@
+2022-01-28 03:45:00.863 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1h48m32s181ms).
+2022-01-28 05:45:28.481 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h27s621ms).
+2022-01-28 07:46:26.277 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h27s766ms).
+2022-01-28 09:22:54.821 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1h35m58s532ms).
+2022-01-28 09:53:57.149 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=31m2s328ms).
+2022-01-28 10:21:18.696 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=26m51s522ms).
+2022-01-28 11:50:10.306 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=8m50s866ms).
+2022-01-28 12:29:38.213 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=39m27s909ms).
+2022-01-28 14:30:36.855 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2h28s661ms).
+2022-01-28 15:05:46.792 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=34m39s929ms).
+2022-01-28 15:39:11.966 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=33m25s174ms).
+2022-01-28 18:26:23.423 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1h3m40s301ms).
+2022-01-28 20:26:02.134 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1h59m8s697ms).
+2022-01-28 20:38:42.925 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=12m40s790ms).
+2022-01-28 20:40:51.498 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m8s526ms).
+2022-01-28 20:42:06.927 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m15s417ms).

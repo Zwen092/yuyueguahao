@@ -1,0 +1,485 @@
+2022-01-27 14:51:35.317 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 14:51:35.413 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 14:58:01.867 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 14:58:01.953 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 14:59:01.746 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 14:59:01.829 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:00:34.428 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:00:34.540 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:01:26.427 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:01:26.502 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:02:49.880 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:02:49.958 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:03:20.839 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:03:20.914 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:04:11.926 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:04:12.001 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:06:26.184 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:06:26.262 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:07:06.696 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:07:06.771 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:08:03.685 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:08:03.769 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:08:33.914 [http-nio-9998-exec-4] WARN  com.zaxxer.hikari.pool.ProxyConnection - GuliHikariPool - Connection com.mysql.jdbc.JDBC4Connection@3b0b4d7d marked as broken because of SQLSTATE(08003), ErrorCode(0)
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1184)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1179)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1516)
+	at com.zaxxer.hikari.pool.ProxyConnection.commit(ProxyConnection.java:366)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.commit(HikariProxyConnection.java)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:331)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:744)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:712)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy96.submitOrder(Unknown Source)
+	at com.atguigu.hospital.controller.HospitalController.testSubmitOrder(HospitalController.java:55)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-27 15:08:33.914 [http-nio-9998-exec-49] WARN  com.zaxxer.hikari.pool.ProxyConnection - GuliHikariPool - Connection com.mysql.jdbc.JDBC4Connection@3e7571cb marked as broken because of SQLSTATE(08003), ErrorCode(0)
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1184)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1179)
+	at com.mysql.jdbc.ConnectionImpl.commit(ConnectionImpl.java:1516)
+	at com.zaxxer.hikari.pool.ProxyConnection.commit(ProxyConnection.java:366)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.commit(HikariProxyConnection.java)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:331)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:744)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:712)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy96.submitOrder(Unknown Source)
+	at com.atguigu.hospital.controller.HospitalController.testSubmitOrder(HospitalController.java:55)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-27 15:08:33.948 [http-nio-9998-exec-49] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JDBC transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.]
+2022-01-27 15:08:33.948 [http-nio-9998-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JDBC transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.]
+2022-01-27 15:08:43.185 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:08:43.271 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:11:56.033 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:11:56.131 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:12:51.805 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:12:51.882 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:13:31.223 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:13:31.311 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:18:35.708 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:18:35.794 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:24:15.788 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:24:15.865 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:27:54.898 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:27:54.994 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:28:21.611 [http-nio-9998-exec-39] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.612 [http-nio-9998-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.654 [http-nio-9998-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.657 [http-nio-9998-exec-30] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.669 [http-nio-9998-exec-37] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.672 [http-nio-9998-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.687 [http-nio-9998-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.735 [http-nio-9998-exec-20] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.737 [http-nio-9998-exec-38] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.736 [http-nio-9998-exec-40] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.736 [http-nio-9998-exec-29] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.738 [http-nio-9998-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.739 [http-nio-9998-exec-16] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.740 [http-nio-9998-exec-17] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.741 [http-nio-9998-exec-34] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.741 [http-nio-9998-exec-15] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.742 [http-nio-9998-exec-21] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.743 [http-nio-9998-exec-33] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.744 [http-nio-9998-exec-13] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.753 [http-nio-9998-exec-24] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.755 [http-nio-9998-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.756 [http-nio-9998-exec-18] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.756 [http-nio-9998-exec-42] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.757 [http-nio-9998-exec-12] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.758 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.759 [http-nio-9998-exec-31] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.761 [http-nio-9998-exec-19] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.762 [http-nio-9998-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.762 [http-nio-9998-exec-36] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.763 [http-nio-9998-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:21.763 [http-nio-9998-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:28:30.839 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:28:30.919 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:44:36.738 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:44:36.832 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:49:52.185 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:49:52.273 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:51:17.296 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:51:17.370 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:52:09.960 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:52:10.055 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 15:53:36.549 [http-nio-9998-exec-26] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:53:36.550 [http-nio-9998-exec-22] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:53:36.558 [http-nio-9998-exec-32] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.
+### The error may exist in com/atguigu/hospital/mapper/ScheduleMapper.java (best guess)
+### The error may involve com.atguigu.hospital.mapper.ScheduleMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (GuliHikariPool) has been closed.]
+2022-01-27 15:53:46.019 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 15:53:46.099 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:22:51.322 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:22:51.486 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:23:13.735 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:26:42.746 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:26:42.825 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:27:06.610 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:31.361 [http-nio-9998-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:31.568 [http-nio-9998-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:38.385 [http-nio-9998-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:38.482 [http-nio-9998-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:38.634 [http-nio-9998-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:39.367 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:27:41.007 [http-nio-9998-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:32:51.797 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:32:51.878 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:32:56.971 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:34:31.817 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:34:31.902 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:34:34.006 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:37:31.787 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:37:31.869 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:38:12.663 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:38:12.739 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:39:47.593 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 16:39:47.669 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 16:39:49.337 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 16:42:13.889 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 16:49:58.637 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 16:51:42.383 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 16:56:58.034 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 17:01:52.297 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:01:52.388 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:04:13.938 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 17:07:39.438 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:07:39.517 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:08:05.131 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 17:09:11.209 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'apiService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiServiceImpl': Unsatisfied dependency expressed through field 'scheduleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scheduleMapper' defined in file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/com/atguigu/hospital/mapper/ScheduleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu/hospital-manage/target/classes/xml/ScheduleMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.atguigu.yygh.model.hosp.Schedule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.atguigu.yygh.model.hosp.Schedule
+2022-01-27 17:10:02.046 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:10:02.130 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:10:04.416 [http-nio-9998-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.atguigu.hospital.mapper.ScheduleMapper.summitOrderForUpdate]
+2022-01-27 17:10:58.111 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:10:58.197 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:13:46.633 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:13:46.704 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:17:15.967 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:17:16.052 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:17:42.674 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:17:42.754 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 17:18:49.806 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 17:18:49.900 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 18:23:46.169 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=52s879ms).
+2022-01-27 18:25:13.100 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=56s901ms).
+2022-01-27 18:26:28.687 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m15s585ms).
+2022-01-27 18:31:37.922 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=4m39s221ms).
+2022-01-27 18:33:58.201 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m16s172ms).
+2022-01-27 18:35:08.238 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m10s40ms).
+2022-01-27 18:37:35.303 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=48s252ms).
+2022-01-27 18:38:23.620 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=48s318ms).
+2022-01-27 18:44:55.884 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m2s185ms).
+2022-01-27 18:46:29.803 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m3s898ms).
+2022-01-27 18:47:46.590 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=46s774ms).
+2022-01-27 18:55:06.888 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m1s405ms).
+2022-01-27 18:55:56.384 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=49s500ms).
+2022-01-27 18:57:49.344 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=46s348ms).
+2022-01-27 18:59:28.969 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m9s613ms).
+2022-01-27 19:01:22.305 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m23s317ms).
+2022-01-27 19:03:34.976 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=2m12s670ms).
+2022-01-27 19:05:42.547 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m37s557ms).
+2022-01-27 19:06:33.370 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=50s823ms).
+2022-01-27 19:07:52.006 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=48s627ms).
+2022-01-27 19:12:24.638 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1m38s484ms).
+2022-01-27 19:26:27.163 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=13m32s507ms).
+2022-01-27 19:27:29.485 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 19:27:29.578 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 19:28:04.093 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-27 19:28:04.172 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-01-27 21:33:32.846 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Retrograde clock change detected (housekeeper delta=27s901ms), soft-evicting connections from pool.
+2022-01-27 22:38:57.151 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=7m21s371ms).
+2022-01-27 23:12:25.974 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=33m28s827ms).

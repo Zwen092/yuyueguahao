@@ -1,0 +1,1206 @@
+2022-01-27 14:51:32.075 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 57482 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 14:51:32.083 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 14:51:32.160 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 14:51:32.161 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 14:51:33.622 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 14:51:33.907 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 14:51:33.914 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:51:33.914 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 14:51:33.914 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 14:51:33.983 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 14:51:33.983 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1822 ms
+2022-01-27 14:51:34.223 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 14:51:34.458 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 14:51:35.159 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 14:51:35.281 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 14:51:35.539 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 14:51:35.547 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 14:51:35.577 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 14:51:35.595 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:51:35.615 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 14:51:35.619 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.444 seconds (JVM running for 5.162)
+2022-01-27 14:52:09.571 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 14:52:09.573 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 14:52:09.599 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2022-01-27 14:57:53.483 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 14:57:53.488 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 14:57:53.494 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 14:57:59.030 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 57818 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 14:57:59.033 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 14:57:59.078 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 14:57:59.079 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 14:58:00.357 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 14:58:00.611 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 14:58:00.618 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:58:00.618 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 14:58:00.619 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 14:58:00.681 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 14:58:00.683 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1604 ms
+2022-01-27 14:58:00.879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 14:58:01.115 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 14:58:01.748 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 14:58:01.837 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 14:58:02.056 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 14:58:02.063 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 14:58:02.091 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 14:58:02.107 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:58:02.131 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 14:58:02.135 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.736 seconds (JVM running for 4.367)
+2022-01-27 14:58:08.891 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 14:58:08.893 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 14:58:08.904 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-01-27 14:58:52.819 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 14:58:52.823 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 14:58:52.831 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 14:58:58.813 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 57877 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 14:58:58.816 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 14:58:58.869 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 14:58:58.870 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 14:59:00.148 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 14:59:00.422 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 14:59:00.428 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:59:00.429 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 14:59:00.429 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 14:59:00.496 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 14:59:00.499 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1629 ms
+2022-01-27 14:59:00.703 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 14:59:00.941 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 14:59:01.600 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 14:59:01.694 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 14:59:01.944 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 14:59:01.952 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 14:59:01.981 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 14:59:01.997 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 14:59:02.014 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 14:59:02.017 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.887 seconds (JVM running for 4.533)
+2022-01-27 14:59:09.730 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 14:59:09.731 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 14:59:09.748 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2022-01-27 15:00:25.272 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:00:25.276 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:00:25.285 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:00:31.584 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 57967 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:00:31.586 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:00:31.630 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:00:31.631 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:00:32.926 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:00:33.182 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:00:33.188 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:00:33.189 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:00:33.189 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:00:33.245 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:00:33.247 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1616 ms
+2022-01-27 15:00:33.451 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:00:33.683 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:00:34.308 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:00:34.396 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:00:34.640 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:00:34.647 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:00:34.677 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:00:34.696 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:00:34.715 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:00:34.718 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.793 seconds (JVM running for 4.435)
+2022-01-27 15:00:56.241 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:00:56.243 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:00:56.266 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2022-01-27 15:01:17.835 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:01:17.843 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:01:17.848 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:01:23.613 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58022 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:01:23.615 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:01:23.665 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:01:23.666 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:01:24.920 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:01:25.174 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:01:25.179 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:01:25.180 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:01:25.180 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:01:25.240 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:01:25.243 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1577 ms
+2022-01-27 15:01:25.446 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:01:25.688 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:01:26.308 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:01:26.397 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:01:26.611 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:01:26.620 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:01:26.652 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:01:26.668 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:01:26.684 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:01:26.687 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.733 seconds (JVM running for 4.383)
+2022-01-27 15:01:30.816 [http-nio-9998-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:01:30.819 [http-nio-9998-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:01:30.837 [http-nio-9998-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2022-01-27 15:02:40.901 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:02:40.927 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:02:40.933 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:02:47.006 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58079 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:02:47.009 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:02:47.058 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:02:47.059 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:02:48.324 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:02:48.587 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:02:48.593 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:02:48.594 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:02:48.594 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:02:48.652 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:02:48.654 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1595 ms
+2022-01-27 15:02:48.854 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:02:49.082 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:02:49.755 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:02:49.848 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:02:50.073 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:02:50.081 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:02:50.112 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:02:50.128 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:02:50.147 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:02:50.150 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.814 seconds (JVM running for 4.462)
+2022-01-27 15:02:53.541 [http-nio-9998-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:02:53.543 [http-nio-9998-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:02:53.560 [http-nio-9998-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2022-01-27 15:03:12.261 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:03:12.267 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:03:12.274 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:03:18.022 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58104 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:03:18.025 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:03:18.072 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:03:18.072 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:03:19.330 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:03:19.594 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:03:19.600 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:03:19.601 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:03:19.601 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:03:19.664 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:03:19.666 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1594 ms
+2022-01-27 15:03:19.856 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:03:20.088 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:03:20.716 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:03:20.806 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:03:21.020 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:03:21.027 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:03:21.053 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:03:21.074 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:03:21.092 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:03:21.095 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.733 seconds (JVM running for 4.366)
+2022-01-27 15:03:26.179 [http-nio-9998-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:03:26.182 [http-nio-9998-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:03:26.197 [http-nio-9998-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 15:04:03.116 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:04:03.124 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:04:03.133 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:04:09.047 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58153 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:04:09.050 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:04:09.096 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:04:09.097 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:04:10.356 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:04:10.617 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:04:10.622 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:04:10.623 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:04:10.623 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:04:10.689 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:04:10.691 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1594 ms
+2022-01-27 15:04:10.903 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:04:11.143 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:04:11.794 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:04:11.890 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:04:12.112 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:04:12.120 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:04:12.150 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:04:12.166 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:04:12.186 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:04:12.189 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.821 seconds (JVM running for 4.488)
+2022-01-27 15:04:17.682 [http-nio-9998-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:04:17.684 [http-nio-9998-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:04:17.703 [http-nio-9998-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2022-01-27 15:06:17.357 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:06:17.369 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:06:17.375 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:06:23.327 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58254 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:06:23.330 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:06:23.382 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:06:23.383 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:06:24.647 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:06:24.911 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:06:24.916 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:06:24.917 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:06:24.917 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:06:24.972 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:06:24.974 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1591 ms
+2022-01-27 15:06:25.177 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:06:25.425 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:06:26.063 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:06:26.154 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:06:26.372 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:06:26.379 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:06:26.407 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:06:26.422 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:06:26.438 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:06:26.442 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.784 seconds (JVM running for 4.436)
+2022-01-27 15:06:57.648 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:06:57.659 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:06:57.665 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:07:03.783 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58283 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:07:03.786 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:07:03.838 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:07:03.839 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:07:05.119 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:07:05.381 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:07:05.387 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:07:05.388 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:07:05.388 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:07:05.451 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:07:05.453 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1614 ms
+2022-01-27 15:07:05.669 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:07:05.923 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:07:06.575 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:07:06.662 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:07:06.880 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:07:06.887 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:07:06.916 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:07:06.933 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:07:06.952 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:07:06.955 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.839 seconds (JVM running for 4.512)
+2022-01-27 15:07:18.815 [http-nio-9998-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:07:18.816 [http-nio-9998-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:07:18.834 [http-nio-9998-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2022-01-27 15:07:54.816 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:07:54.827 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:07:54.839 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:08:00.714 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58325 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:08:00.716 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:08:00.769 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:08:00.770 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:08:02.035 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:08:02.302 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:08:02.308 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:08:02.309 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:08:02.309 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:08:02.369 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:08:02.372 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1602 ms
+2022-01-27 15:08:02.672 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:08:02.921 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:08:03.555 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:08:03.649 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:08:03.883 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:08:03.893 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:08:03.924 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:08:03.941 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:08:03.964 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:08:03.968 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.931 seconds (JVM running for 4.605)
+2022-01-27 15:08:05.730 [http-nio-9998-exec-39] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:08:05.732 [http-nio-9998-exec-39] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:08:05.757 [http-nio-9998-exec-39] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2022-01-27 15:08:31.580 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:08:31.584 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:08:31.590 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:08:40.263 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58365 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:08:40.266 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:08:40.318 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:08:40.319 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:08:41.607 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:08:41.869 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:08:41.875 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:08:41.876 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:08:41.876 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:08:41.939 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:08:41.941 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1622 ms
+2022-01-27 15:08:42.162 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:08:42.396 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:08:43.054 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:08:43.147 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:08:43.380 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:08:43.387 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:08:43.416 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:08:43.433 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:08:43.451 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:08:43.455 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.86 seconds (JVM running for 4.647)
+2022-01-27 15:08:48.271 [http-nio-9998-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:08:48.272 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:08:48.288 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-01-27 15:11:46.381 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:11:46.412 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:11:46.431 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:11:52.890 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58516 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:11:52.893 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:11:52.949 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:11:52.950 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:11:54.370 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:11:54.636 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:11:54.642 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:11:54.642 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:11:54.643 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:11:54.704 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:11:54.706 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1756 ms
+2022-01-27 15:11:54.924 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:11:55.160 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:11:55.892 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:11:55.995 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:11:56.277 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:11:56.286 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:11:56.338 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:11:56.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:11:56.379 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:11:56.383 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.204 seconds (JVM running for 4.883)
+2022-01-27 15:12:02.038 [http-nio-9998-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:12:02.040 [http-nio-9998-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:12:02.059 [http-nio-9998-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2022-01-27 15:12:43.153 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:12:43.159 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:12:43.166 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:12:48.949 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58559 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:12:48.952 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:12:49.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:12:49.005 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:12:50.311 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:12:50.573 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:12:50.579 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:12:50.579 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:12:50.580 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:12:50.644 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:12:50.646 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1641 ms
+2022-01-27 15:12:50.858 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:12:51.087 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:12:51.693 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:12:51.774 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:12:51.984 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:12:51.993 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:12:52.023 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:12:52.042 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:12:52.061 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:12:52.065 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.798 seconds (JVM running for 4.54)
+2022-01-27 15:12:57.013 [http-nio-9998-exec-12] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:12:57.015 [http-nio-9998-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:12:57.030 [http-nio-9998-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 15:13:22.537 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:13:22.541 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:13:22.546 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:13:28.202 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58590 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:13:28.205 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:13:28.259 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:13:28.260 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:13:29.608 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:13:29.902 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:13:29.910 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:13:29.911 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:13:29.911 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:13:30.013 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:13:30.014 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1754 ms
+2022-01-27 15:13:30.233 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:13:30.457 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:13:31.093 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:13:31.191 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:13:31.436 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:13:31.468 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:13:31.509 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:13:31.557 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:13:31.597 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:13:31.607 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.059 seconds (JVM running for 4.724)
+2022-01-27 15:13:39.274 [http-nio-9998-exec-41] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:13:39.276 [http-nio-9998-exec-41] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:13:39.291 [http-nio-9998-exec-41] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 15:18:26.949 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:18:26.958 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:18:26.969 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:18:32.803 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 58815 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:18:32.806 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:18:32.859 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:18:32.860 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:18:34.121 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:18:34.396 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:18:34.401 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:18:34.402 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:18:34.402 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:18:34.465 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:18:34.468 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1607 ms
+2022-01-27 15:18:34.670 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:18:34.899 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:18:35.578 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:18:35.677 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:18:35.906 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:18:35.915 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:18:35.946 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:18:35.962 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:18:35.982 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:18:35.986 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.853 seconds (JVM running for 4.601)
+2022-01-27 15:18:46.370 [http-nio-9998-exec-26] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:18:46.372 [http-nio-9998-exec-26] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:18:46.394 [http-nio-9998-exec-26] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2022-01-27 15:24:06.893 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:24:06.902 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:24:06.909 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:24:12.885 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 59073 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:24:12.888 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:24:12.939 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:24:12.940 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:24:14.259 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:24:14.520 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:24:14.527 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:24:14.528 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:24:14.528 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:24:14.593 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:24:14.595 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1655 ms
+2022-01-27 15:24:14.791 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:24:15.016 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:24:15.654 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:24:15.755 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:24:15.973 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:24:15.982 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:24:16.015 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:24:16.033 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:24:16.051 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:24:16.055 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.823 seconds (JVM running for 4.512)
+2022-01-27 15:24:26.066 [http-nio-9998-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:24:26.069 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:24:26.089 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2022-01-27 15:27:44.772 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:27:44.781 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:27:44.793 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:27:51.333 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 59307 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:27:51.337 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:27:51.389 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:27:51.389 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:27:52.806 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:27:53.372 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:27:53.383 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:27:53.384 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:27:53.384 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:27:53.493 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:27:53.496 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2106 ms
+2022-01-27 15:27:53.729 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:27:54.018 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:27:54.746 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:27:54.853 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:27:55.112 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:27:55.121 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:27:55.152 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:27:55.175 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:27:55.195 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:27:55.199 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.563 seconds (JVM running for 5.239)
+2022-01-27 15:27:58.718 [http-nio-9998-exec-22] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:27:58.721 [http-nio-9998-exec-22] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:27:58.745 [http-nio-9998-exec-22] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2022-01-27 15:28:20.252 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:28:20.256 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:28:20.268 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:28:27.926 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 59383 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:28:27.929 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:28:27.980 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:28:27.981 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:28:29.320 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:28:29.574 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:28:29.580 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:28:29.580 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:28:29.580 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:28:29.641 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:28:29.644 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1663 ms
+2022-01-27 15:28:29.848 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:28:30.066 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:28:30.707 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:28:30.802 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:28:31.024 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:28:31.031 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:28:31.059 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:28:31.076 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:28:31.094 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:28:31.097 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.874 seconds (JVM running for 4.697)
+2022-01-27 15:28:41.092 [http-nio-9998-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:28:41.094 [http-nio-9998-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:28:41.121 [http-nio-9998-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2022-01-27 15:44:27.141 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:44:27.147 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:44:27.155 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:44:33.535 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 60095 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:44:33.538 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:44:33.591 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:44:33.592 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:44:34.973 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:44:35.239 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:44:35.245 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:44:35.246 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:44:35.246 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:44:35.318 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:44:35.320 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1728 ms
+2022-01-27 15:44:35.542 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:44:35.765 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:44:36.558 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:44:36.691 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:44:36.946 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:44:36.958 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:44:37.002 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:44:37.030 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:44:37.056 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:44:37.061 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.214 seconds (JVM running for 4.906)
+2022-01-27 15:44:53.489 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:44:53.492 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:44:53.516 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2022-01-27 15:49:42.785 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:49:42.793 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:49:42.804 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:49:49.258 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 60344 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:49:49.261 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:49:49.312 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:49:49.313 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:49:50.632 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:49:50.886 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:49:50.892 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:49:50.892 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:49:50.892 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:49:50.952 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:49:50.954 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1641 ms
+2022-01-27 15:49:51.155 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:49:51.393 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:49:52.058 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:49:52.152 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:49:52.383 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:49:52.391 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:49:52.422 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:49:52.443 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:49:52.465 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:49:52.469 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.956 seconds (JVM running for 4.617)
+2022-01-27 15:49:58.486 [http-nio-9998-exec-38] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:49:58.487 [http-nio-9998-exec-38] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:49:58.502 [http-nio-9998-exec-38] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 15:51:08.217 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:51:08.222 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:51:08.228 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:51:14.203 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 60422 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:51:14.206 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:51:14.252 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:51:14.253 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:51:15.743 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:51:16.042 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:51:16.052 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:51:16.053 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:51:16.053 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:51:16.123 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:51:16.125 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1872 ms
+2022-01-27 15:51:16.353 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:51:16.590 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:51:17.177 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:51:17.261 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:51:17.474 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:51:17.481 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:51:17.511 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:51:17.532 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:51:17.551 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:51:17.554 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.029 seconds (JVM running for 4.849)
+2022-01-27 15:51:21.552 [http-nio-9998-exec-14] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:51:21.557 [http-nio-9998-exec-14] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:51:21.572 [http-nio-9998-exec-14] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 15:52:00.466 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:52:00.471 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:52:00.480 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:52:06.732 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 60467 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:52:06.735 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:52:06.870 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:52:06.871 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:52:08.215 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:52:08.533 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:52:08.547 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:52:08.548 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:52:08.548 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:52:08.630 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:52:08.632 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1760 ms
+2022-01-27 15:52:08.901 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:52:09.129 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:52:09.830 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:52:09.927 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:52:10.181 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:52:10.192 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:52:10.224 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:52:10.246 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:52:10.273 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:52:10.277 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.275 seconds (JVM running for 5.2)
+2022-01-27 15:52:17.129 [http-nio-9998-exec-22] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:52:17.131 [http-nio-9998-exec-22] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:52:17.149 [http-nio-9998-exec-22] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2022-01-27 15:53:35.466 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:53:35.476 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 15:53:35.483 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 15:53:43.167 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 60544 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 15:53:43.170 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 15:53:43.218 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 15:53:43.219 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 15:53:44.521 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 15:53:44.778 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 15:53:44.784 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:53:44.785 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 15:53:44.785 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 15:53:44.845 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 15:53:44.847 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1628 ms
+2022-01-27 15:53:45.041 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 15:53:45.256 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 15:53:45.895 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 15:53:45.988 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 15:53:46.248 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 15:53:46.256 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 15:53:46.283 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 15:53:46.300 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 15:53:46.318 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 15:53:46.322 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.842 seconds (JVM running for 4.729)
+2022-01-27 15:53:49.440 [http-nio-9998-exec-20] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 15:53:49.444 [http-nio-9998-exec-20] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 15:53:49.468 [http-nio-9998-exec-20] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2022-01-27 16:22:39.124 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:22:39.138 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:22:39.151 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:22:47.544 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 61905 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:22:47.548 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:22:47.607 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:22:47.607 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:22:49.389 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:22:49.708 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:22:49.716 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:22:49.716 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:22:49.716 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:22:49.787 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:22:49.789 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2182 ms
+2022-01-27 16:22:50.082 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:22:50.345 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:22:51.190 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:22:51.285 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:22:51.634 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:22:51.644 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:22:51.677 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:22:51.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:22:51.720 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:22:51.724 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.954 seconds (JVM running for 5.767)
+2022-01-27 16:23:13.604 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:23:13.606 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:23:13.640 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2022-01-27 16:26:35.302 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:26:35.308 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:26:35.320 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:26:38.822 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62099 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:26:38.824 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:26:38.872 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:26:38.873 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:26:40.213 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:26:40.761 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:26:40.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:26:40.778 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:26:40.778 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:26:41.127 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:26:41.131 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2258 ms
+2022-01-27 16:26:41.503 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:26:41.781 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:26:42.600 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:26:42.711 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:26:42.950 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:26:42.961 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:26:43.041 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:26:43.076 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:26:43.141 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:26:43.147 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.997 seconds (JVM running for 5.624)
+2022-01-27 16:27:06.485 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:27:06.487 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:27:06.516 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2022-01-27 16:32:44.025 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:32:44.032 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:32:44.042 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:32:48.667 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62524 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:32:48.670 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:32:48.720 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:32:48.720 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:32:50.119 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:32:50.428 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:32:50.435 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:32:50.436 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:32:50.436 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:32:50.512 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:32:50.514 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1793 ms
+2022-01-27 16:32:50.743 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:32:50.974 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:32:51.661 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:32:51.761 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:32:52.003 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:32:52.014 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:32:52.042 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:32:52.062 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:32:52.080 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:32:52.083 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.309 seconds (JVM running for 5.145)
+2022-01-27 16:32:56.841 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:32:56.843 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:32:56.874 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 31 ms
+2022-01-27 16:34:24.943 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:34:24.950 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:34:24.962 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:34:28.656 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62605 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:34:28.660 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:34:28.711 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:34:28.712 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:34:30.028 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:34:30.286 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:34:30.292 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:34:30.293 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:34:30.293 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:34:30.361 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:34:30.364 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1652 ms
+2022-01-27 16:34:30.724 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:34:30.972 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:34:31.683 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:34:31.784 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:34:32.010 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:34:32.018 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:34:32.044 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:34:32.060 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:34:32.086 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:34:32.095 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.129 seconds (JVM running for 4.741)
+2022-01-27 16:34:33.927 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:34:33.928 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:34:33.941 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2022-01-27 16:37:25.124 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:37:25.137 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:37:25.149 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:37:28.830 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62747 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:37:28.833 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:37:28.884 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:37:28.884 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:37:30.183 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:37:30.460 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:37:30.467 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:37:30.468 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:37:30.469 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:37:30.546 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:37:30.548 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1663 ms
+2022-01-27 16:37:30.761 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:37:30.995 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:37:31.661 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:37:31.754 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:37:31.985 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:37:31.995 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:37:32.023 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:37:32.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:37:32.059 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:37:32.063 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.895 seconds (JVM running for 4.5)
+2022-01-27 16:37:48.858 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:37:48.873 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:37:48.901 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:38:09.745 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62829 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:38:09.753 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:38:09.823 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:38:09.824 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:38:11.151 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:38:11.388 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:38:11.394 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:38:11.395 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:38:11.395 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:38:11.458 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:38:11.460 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1636 ms
+2022-01-27 16:38:11.657 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:38:11.885 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:38:12.536 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:38:12.627 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:38:12.860 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:38:12.868 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:38:12.896 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:38:12.913 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:38:12.932 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:38:12.936 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.116 seconds (JVM running for 5.116)
+2022-01-27 16:39:38.394 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:39:38.403 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:39:38.415 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:39:44.386 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 62899 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:39:44.389 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:39:44.445 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:39:44.446 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:39:46.007 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:39:46.271 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:39:46.278 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:39:46.279 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:39:46.279 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:39:46.349 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:39:46.351 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1905 ms
+2022-01-27 16:39:46.566 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:39:46.805 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:39:47.464 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 16:39:47.560 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:39:47.774 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 16:39:47.782 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 16:39:47.810 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 16:39:47.827 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:39:47.846 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 16:39:47.849 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.123 seconds (JVM running for 4.739)
+2022-01-27 16:39:49.264 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:39:49.266 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:39:49.282 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-01-27 16:42:08.054 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 16:42:08.067 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:42:08.072 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:42:11.610 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 63012 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:42:11.613 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:42:11.662 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:42:11.663 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:42:13.022 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:42:13.276 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:42:13.282 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:42:13.283 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:42:13.283 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:42:13.348 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:42:13.350 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1687 ms
+2022-01-27 16:42:13.570 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:42:13.831 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:42:13.890 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:42:13.893 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:42:13.897 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 16:42:13.914 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 16:49:56.393 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 63346 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:49:56.397 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:49:56.448 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:49:56.449 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:49:57.815 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:49:58.073 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:49:58.079 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:49:58.079 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:49:58.079 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:49:58.146 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:49:58.148 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1698 ms
+2022-01-27 16:49:58.357 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:49:58.582 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:49:58.639 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:49:58.641 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:49:58.646 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 16:49:58.662 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 16:51:40.159 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 63424 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:51:40.163 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:51:40.214 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:51:40.215 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:51:41.529 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:51:41.796 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:51:41.803 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:51:41.804 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:51:41.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:51:41.868 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:51:41.871 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1656 ms
+2022-01-27 16:51:42.101 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:51:42.327 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:51:42.384 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:51:42.387 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:51:42.391 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 16:51:42.407 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 16:56:55.635 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 63663 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 16:56:55.638 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 16:56:55.695 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:56:55.695 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:56:57.176 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 16:56:57.463 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 16:56:57.469 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 16:56:57.470 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 16:56:57.470 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 16:56:57.539 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 16:56:57.541 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1845 ms
+2022-01-27 16:56:57.752 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 16:56:57.978 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 16:56:58.035 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 16:56:58.038 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 16:56:58.042 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 16:56:58.061 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 17:01:48.806 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 63953 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:01:48.812 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:01:48.871 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:01:48.872 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:01:50.322 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:01:50.670 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:01:50.682 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:01:50.683 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:01:50.683 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:01:50.758 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:01:50.760 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1888 ms
+2022-01-27 17:01:51.117 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:01:51.373 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:01:52.160 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:01:52.255 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:01:52.511 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:01:52.521 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:01:52.557 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:01:52.578 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:01:52.602 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:01:52.606 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.554 seconds (JVM running for 5.216)
+2022-01-27 17:04:07.878 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:04:07.891 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:04:07.904 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:04:11.601 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64066 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:04:11.605 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:04:11.663 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:04:11.663 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:04:13.067 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:04:13.333 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:04:13.339 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:04:13.340 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:04:13.340 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:04:13.407 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:04:13.411 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1747 ms
+2022-01-27 17:04:13.629 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:04:13.877 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:04:13.939 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:04:13.941 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:04:13.946 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 17:04:13.962 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 17:07:36.571 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64229 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:07:36.574 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:07:36.627 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:07:36.627 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:07:37.898 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:07:38.154 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:07:38.160 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:07:38.161 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:07:38.161 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:07:38.232 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:07:38.234 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1606 ms
+2022-01-27 17:07:38.447 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:07:38.656 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:07:39.318 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:07:39.407 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:07:39.630 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:07:39.638 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:07:39.665 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:07:39.681 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:07:39.699 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:07:39.703 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.837 seconds (JVM running for 4.648)
+2022-01-27 17:08:05.053 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:08:05.055 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:08:05.074 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2022-01-27 17:09:05.606 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:09:05.611 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:09:05.615 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:09:09.081 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64293 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:09:09.084 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:09:09.134 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:09:09.134 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:09:10.406 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:09:10.656 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:09:10.662 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:09:10.663 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:09:10.663 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:09:10.724 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:09:10.726 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1591 ms
+2022-01-27 17:09:10.919 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:09:11.158 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:09:11.211 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:09:11.213 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:09:11.217 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-27 17:09:11.232 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-27 17:09:59.174 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64347 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:09:59.178 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:09:59.231 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:09:59.232 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:10:00.546 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:10:00.782 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:10:00.788 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:10:00.789 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:10:00.789 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:10:00.851 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:10:00.853 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1621 ms
+2022-01-27 17:10:01.064 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:10:01.286 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:10:01.924 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:10:02.014 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:10:02.239 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:10:02.248 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:10:02.277 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:10:02.294 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:10:02.317 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:10:02.321 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.813 seconds (JVM running for 4.582)
+2022-01-27 17:10:04.335 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:10:04.336 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:10:04.347 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-01-27 17:10:51.094 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:10:51.105 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:10:51.108 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:10:55.132 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64398 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:10:55.135 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:10:55.189 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:10:55.190 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:10:56.473 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:10:56.735 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:10:56.741 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:10:56.742 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:10:56.742 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:10:56.803 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:10:56.806 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1616 ms
+2022-01-27 17:10:57.039 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:10:57.273 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:10:57.986 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:10:58.079 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:10:58.302 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:10:58.312 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:10:58.342 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:10:58.364 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:10:58.385 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:10:58.389 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.934 seconds (JVM running for 4.76)
+2022-01-27 17:11:07.031 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:11:07.033 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:11:07.049 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-01-27 17:13:36.123 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:13:36.130 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:13:36.136 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:13:43.339 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64532 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:13:43.343 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:13:43.399 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:13:43.400 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:13:45.140 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:13:45.382 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:13:45.388 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:13:45.388 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:13:45.388 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:13:45.457 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:13:45.457 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2057 ms
+2022-01-27 17:13:45.662 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:13:45.879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:13:46.509 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:13:46.596 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:13:46.810 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:13:46.817 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:13:46.847 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:13:46.864 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:13:46.883 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:13:46.887 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.768 seconds (JVM running for 5.425)
+2022-01-27 17:13:49.253 [http-nio-9998-exec-12] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:13:49.255 [http-nio-9998-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:13:49.270 [http-nio-9998-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2022-01-27 17:17:07.000 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:17:07.005 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:17:07.018 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:17:13.097 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64683 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:17:13.101 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:17:13.160 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:17:13.161 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:17:14.427 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:17:14.686 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:17:14.691 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:17:14.692 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:17:14.692 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:17:14.753 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:17:14.755 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1594 ms
+2022-01-27 17:17:14.959 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:17:15.190 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:17:15.845 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:17:15.935 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:17:16.159 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:17:16.169 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:17:16.197 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:17:16.214 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:17:16.234 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:17:16.237 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.944 seconds (JVM running for 4.632)
+2022-01-27 17:17:20.595 [http-nio-9998-exec-11] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:17:20.596 [http-nio-9998-exec-11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:17:20.612 [http-nio-9998-exec-11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-01-27 17:17:33.969 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:17:33.973 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:17:33.979 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:17:39.835 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64705 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:17:39.838 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:17:39.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:17:39.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:17:41.129 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:17:41.386 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:17:41.392 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:17:41.392 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:17:41.392 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:17:41.450 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:17:41.451 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1562 ms
+2022-01-27 17:17:41.647 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:17:41.882 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:17:42.553 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:17:42.643 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:17:42.866 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:17:42.874 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:17:42.902 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:17:42.920 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:17:42.939 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:17:42.943 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 3.788 seconds (JVM running for 4.432)
+2022-01-27 17:18:12.700 [http-nio-9998-exec-33] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:18:12.703 [http-nio-9998-exec-33] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:18:12.725 [http-nio-9998-exec-33] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2022-01-27 17:18:40.735 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:18:40.742 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 17:18:40.753 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 17:18:46.564 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 64768 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 17:18:46.567 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 17:18:46.619 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:18:46.619 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:18:48.154 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 17:18:48.431 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 17:18:48.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:18:48.438 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 17:18:48.438 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 17:18:48.504 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 17:18:48.506 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1887 ms
+2022-01-27 17:18:48.719 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 17:18:48.950 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 17:18:49.645 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 17:18:49.760 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 17:18:50.023 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 17:18:50.034 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 17:18:50.064 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 17:18:50.082 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 17:18:50.102 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 17:18:50.108 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 4.255 seconds (JVM running for 4.938)
+2022-01-27 17:18:54.296 [http-nio-9998-exec-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:18:54.298 [http-nio-9998-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:18:54.314 [http-nio-9998-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-01-27 19:27:18.168 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 19:27:18.172 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 19:27:18.203 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 19:27:25.061 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 69478 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 19:27:25.064 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 19:27:25.118 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 19:27:25.119 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 19:27:27.459 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 19:27:27.916 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 19:27:27.923 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 19:27:27.924 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 19:27:27.924 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 19:27:28.007 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 19:27:28.009 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2890 ms
+2022-01-27 19:27:28.301 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 19:27:28.553 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 19:27:29.352 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 19:27:29.451 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 19:27:29.684 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 19:27:29.693 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 19:27:29.724 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 19:27:29.741 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 19:27:29.764 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 19:27:29.768 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 5.435 seconds (JVM running for 6.297)
+2022-01-27 19:27:36.529 [http-nio-9998-exec-36] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 19:27:36.533 [http-nio-9998-exec-36] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 19:27:36.553 [http-nio-9998-exec-36] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2022-01-27 19:27:53.839 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-27 19:27:53.844 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2022-01-27 19:27:53.852 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
+2022-01-27 19:27:59.977 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 69508 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2022-01-27 19:27:59.980 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2022-01-27 19:28:00.035 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 19:28:00.036 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 19:28:01.779 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-27 19:28:02.434 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2022-01-27 19:28:02.443 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2022-01-27 19:28:02.444 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 19:28:02.444 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-27 19:28:02.571 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 19:28:02.574 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2538 ms
+2022-01-27 19:28:02.956 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2022-01-27 19:28:03.309 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2022-01-27 19:28:03.950 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-27 19:28:04.046 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 19:28:04.309 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-27 19:28:04.322 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-27 19:28:04.366 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-27 19:28:04.393 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2022-01-27 19:28:04.416 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2022-01-27 19:28:04.420 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Started ManageApplication in 5.215 seconds (JVM running for 5.82)
+2022-01-27 19:28:13.341 [http-nio-9998-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 19:28:13.343 [http-nio-9998-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 19:28:13.358 [http-nio-9998-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms

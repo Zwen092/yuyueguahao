@@ -1,0 +1,29 @@
+2021-12-09 23:01:32.536 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - Starting ManageApplication on MBP14inch2043 with PID 68744 (started by wenzheng in /Users/wenzheng/Downloads/three/four up/four down/cs learning/企业/com.atguigu)
+2021-12-09 23:01:32.541 [restartedMain] INFO  com.atguigu.hospital.ManageApplication - The following profiles are active: dev
+2021-12-09 23:01:32.594 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-09 23:01:32.595 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-09 23:01:33.918 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 23:01:34.195 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-12-09 23:01:34.205 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-12-09 23:01:34.205 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-09 23:01:34.206 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-12-09 23:01:34.268 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-09 23:01:34.268 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1673 ms
+2021-12-09 23:01:34.489 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-12-09 23:01:34.735 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-12-09 23:01:35.364 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-09 23:01:35.472 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-09 23:01:35.700 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-12-09 23:01:35.708 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-12-09 23:01:35.736 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-12-09 23:01:35.753 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-12-09 23:01:35.764 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9998"]
+2021-12-09 23:01:35.764 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-12-09 23:01:35.768 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9998"]
+2021-12-09 23:01:35.768 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9998"]
+2021-12-09 23:01:35.772 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-09 23:01:35.785 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-09 23:01:35.787 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown initiated...
+2021-12-09 23:01:35.790 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Shutdown completed.
